@@ -1,0 +1,33 @@
+.hero__wrapper {
+  background-color: var(--third-brand-color);
+  background-image: url('../img/img2.jpg');
+  background-size: auto 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+.hero {
+  padding: 10rem 0 5rem;
+  position: relative;
+}
+.hero .img {
+  max-width:20rem;
+}
+.hero .text {
+ margin-bottom: 5rem;
+}
+@media screen and (min-width: 1024px) {
+   .hero {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: left;
+   }
+   .hero .img {
+    margin: 0;
+    margin-right: 6rem;
+    max-width: 30rem;
+   }
+   .hero .btn {
+     margin-left: 0;
+   }
+}

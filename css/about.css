@@ -1,0 +1,12 @@
+.about__wrapper {
+  /* background-color: var(--third-brand-color); */
+}
+.about  {
+}
+@media screen and (min-width: 1024px) {
+  .about__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
